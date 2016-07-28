@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.2.1'
+lock '3.6.0'
 
 set :application, 'basic_app'
 set :repo_url, 'git@github.com:abhishek94goyal/basic_app.git'
@@ -8,7 +8,7 @@ set :repo_url, 'git@github.com:abhishek94goyal/basic_app.git'
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-# set :deploy_to, '/var/www/my_app'
+set :deploy_to, '/home/runner/production/basic_app'
 
 # Default value for :scm is :git
 # set :scm, :git
