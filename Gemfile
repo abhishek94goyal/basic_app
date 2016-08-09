@@ -45,4 +45,5 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-rails'
   gem 'foreman'
+  gem 'unicorn'
 end
