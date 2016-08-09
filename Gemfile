@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'unicorn'
+gem 'puma'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -45,6 +47,4 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-rails'
   gem 'foreman'
-  gem 'unicorn'
-  gem 'puma'
 end
